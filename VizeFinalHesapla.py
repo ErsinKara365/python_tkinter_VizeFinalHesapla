@@ -136,7 +136,7 @@ def Hesapla() :
         kaydet = tk.Button(ust , text="Kaydet" , command = Kaydet , bg="white", fg="black" ,font="Ariel").place(x=475, y=350)
 
     except ValueError:
-        ms.showwarning("Dikkat","Sanırım Puan yerine Türkçe karakter girildi !!!")
+        ms.showwarning("Dikkat","-->Sanırım Puan yerine Türkçe karakter girildi\n-->Vize Final alanı boş bırakmayınız Sıfır olarak giriniz")
 
 
 
